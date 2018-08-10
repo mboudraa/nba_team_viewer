@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mboudraa.thescore.ui.list.TeamCell xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="?attr/selectableItemBackground"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+
+    <TextView
+        android:id="@+id/team_cell_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:gravity="center_vertical"
+        android:minHeight="60dp"
+        android:textAppearance="?attr/textAppearanceListItem"
+        app:layout_constraintBottom_toBottomOf="@id/team_cell_losses"
+        app:layout_constraintEnd_toStartOf="@id/team_cell_wins"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/team_cell_wins"
+        tools:text="Boston Celtics" />
+
+    <TextView
+        android:id="@+id/team_cell_wins"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?attr/textAppearanceListItem"
+        app:layout_constraintBottom_toTopOf="@id/team_cell_losses"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1"
+        app:layout_constraintStart_toEndOf="@id/team_cell_name"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="W 56" />
+
+    <TextView
+        android:id="@+id/team_cell_losses"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?attr/textAppearanceListItem"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/team_cell_wins"
+        tools:text="L 16" />
+
+</com.mboudraa.thescore.ui.list.TeamCell>

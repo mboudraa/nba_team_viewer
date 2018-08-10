@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="title_team_detail">Team Detail</string>
+    <string name="team_detail_tab_stats">STATS</string>
+    <string name="team_detail_tab_players">ROSTER</string>
+    <string name="team_detail_stats_wins">Wins</string>
+    <string name="team_detail_stats_losses">Losses</string>
+    <string name="team_list_content_wins">W %d</string>
+    <string name="team_list_content_losses">L %d</string>
+    <string name="team_list_title">NBA Team Viewer</string>
+    <string name="tem_list_menu_sort">Sort</string>
+    <string name="team_detail_roster_title_number">NO.</string>
+    <string name="team_detail_roster_title_name">NAME</string>
+    <string name="team_detail_roster_title_position">POS</string>
+
+    <string-array name="sort">
+        <item>Sort by Name</item>
+        <item>Sort by Wins</item>
+        <item>Sort by Losses</item>
+    </string-array>
+</resources>

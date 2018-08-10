@@ -1,0 +1,60 @@
+[
+  {
+    "wins": 45,
+    "losses": 20,
+    "full_name": "Boston Celtics",
+    "id": 1,
+    "players": [
+      {
+        "id": 37729,
+        "first_name": "Kadeem",
+        "last_name": "Allen",
+        "position": "SG",
+        "number": 45
+      },
+      {
+        "id": 30508,
+        "first_name": "Aron",
+        "last_name": "Baynes",
+        "position": "C",
+        "number": 46
+      },
+      {
+        "id": 30847,
+        "first_name": "Jabari",
+        "last_name": "Bird",
+        "position": "SG",
+        "number": 26
+      }
+    ]
+  },
+  {
+    "wins": 20,
+    "losses": 44,
+    "full_name": "Brooklyn Nets",
+    "id": 2,
+    "players": [
+      {
+        "id": 802,
+        "first_name": "Quincy",
+        "last_name": "Acy",
+        "position": "F",
+        "number": 13
+      },
+      {
+        "id": 53393,
+        "first_name": "Jarrett",
+        "last_name": "Allen",
+        "position": "F-C",
+        "number": 31
+      },
+      {
+        "id": 233,
+        "first_name": "DeMarre",
+        "last_name": "Carroll",
+        "position": "F",
+        "number": 9
+      }
+    ]
+  }
+]

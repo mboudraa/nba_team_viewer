@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/teamsListFragment">
+
+    <fragment
+        android:id="@+id/teamsListFragment"
+        android:name="com.mboudraa.thescore.ui.list.TeamListFragment"
+        android:label="TeamsListFragment" >
+        <action
+            android:id="@+id/action_teamsListFragment_to_teamDetailFragment"
+            app:destination="@id/teamDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/teamDetailFragment"
+        android:name="com.mboudraa.thescore.ui.detail.TeamDetailFragment"
+        android:label="team_detail"
+        tools:layout="@layout/team_detail" />
+</navigation>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mboudraa.thescore.ui.detail.RosterView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:divider="@drawable/list_horizontal_divider"
+    android:showDividers="middle"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/roster_header"
+        layout="@layout/roster_row" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/roster_recyclerview"
+        android:name="com.mboudraa.thescore.TeamListFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.MainActivity"
+        tools:listitem="@layout/roster_row" />
+
+</com.mboudraa.thescore.ui.detail.RosterView>
